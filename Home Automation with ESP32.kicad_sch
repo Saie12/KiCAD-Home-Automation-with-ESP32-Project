@@ -5518,7 +5518,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_BJT:S8050")
-		(at 76.2 142.24 180)
+		(at 81.28 146.05 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5526,7 +5526,7 @@
 		(dnp no)
 		(uuid "52b935ea-05a5-4191-ad2c-92bd14753617")
 		(property "Reference" "Q2"
-			(at 71.12 143.5101 0)
+			(at 76.2 147.3201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5535,7 +5535,7 @@
 			)
 		)
 		(property "Value" "S8050"
-			(at 71.12 140.9701 0)
+			(at 76.2 144.7801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5544,7 +5544,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 71.12 140.335 0)
+			(at 76.2 144.145 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5555,7 +5555,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.unisonic.com.tw/datasheet/S8050.pdf"
-			(at 76.2 142.24 0)
+			(at 81.28 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5565,7 +5565,7 @@
 			)
 		)
 		(property "Description" "0.7A Ic, 20V Vce, Low Voltage High Current NPN Transistor, TO-92"
-			(at 76.2 142.24 0)
+			(at 81.28 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5814,7 +5814,7 @@
 	)
 	(symbol
 		(lib_id "Isolator:PC817")
-		(at 107.95 144.78 180)
+		(at 113.03 148.59 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5822,7 +5822,7 @@
 		(dnp no)
 		(uuid "7b5883e6-43c5-48ef-a4b5-857334864187")
 		(property "Reference" "U3"
-			(at 107.95 153.67 0)
+			(at 113.03 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5830,7 +5830,7 @@
 			)
 		)
 		(property "Value" "PC817"
-			(at 107.95 151.13 0)
+			(at 113.03 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5838,7 +5838,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
-			(at 113.03 139.7 0)
+			(at 118.11 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5849,7 +5849,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf"
-			(at 107.95 144.78 0)
+			(at 113.03 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5859,7 +5859,7 @@
 			)
 		)
 		(property "Description" "DC Optocoupler, Vce 35V, CTR 50-300%, DIP-4"
-			(at 107.95 144.78 0)
+			(at 113.03 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6168,7 +6168,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 123.19 147.32 90)
+		(at 128.27 151.13 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6176,7 +6176,7 @@
 		(dnp no)
 		(uuid "806c1b9e-3964-4baf-9486-f2ee7e12825c")
 		(property "Reference" "R2"
-			(at 123.19 145.288 90)
+			(at 128.27 149.098 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6184,7 +6184,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 123.19 147.32 90)
+			(at 128.27 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6192,7 +6192,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 149.098 90)
+			(at 128.27 152.908 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6201,7 +6201,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 147.32 0)
+			(at 128.27 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6210,7 +6210,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 123.19 147.32 0)
+			(at 128.27 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6235,7 +6235,7 @@
 	)
 	(symbol
 		(lib_id "PR13-5V-450-1C:PR13-5V-450-1C")
-		(at 35.56 151.13 0)
+		(at 40.64 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6243,7 +6243,7 @@
 		(dnp no)
 		(uuid "b5de54b8-e943-453f-97b2-2a79771208ff")
 		(property "Reference" "J1"
-			(at 51.562 160.02 0)
+			(at 56.642 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6251,7 +6251,7 @@
 			)
 		)
 		(property "Value" "PR13-5V-450-1C"
-			(at 52.07 162.306 0)
+			(at 57.15 166.116 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6259,7 +6259,7 @@
 			)
 		)
 		(property "Footprint" "PR135V4501C"
-			(at 64.77 246.05 0)
+			(at 69.85 249.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6269,7 +6269,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.sameskydevices.com/product/resource/pr13.pdf"
-			(at 64.77 346.05 0)
+			(at 69.85 349.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6279,7 +6279,7 @@
 			)
 		)
 		(property "Description" "19 x 15.5 x 15.8 mm, 5 V, 10 A, SPDT (1 Form C), Power Relay"
-			(at 35.56 151.13 0)
+			(at 40.64 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6288,7 +6288,7 @@
 			)
 		)
 		(property "Height" "16.1"
-			(at 64.77 546.05 0)
+			(at 69.85 549.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6298,7 +6298,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Same Sky"
-			(at 64.77 646.05 0)
+			(at 69.85 649.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6308,7 +6308,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "PR13-5V-450-1C"
-			(at 64.77 746.05 0)
+			(at 69.85 749.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6318,7 +6318,7 @@
 			)
 		)
 		(property "Mouser Part Number" "179-PR13-5V-450-1C"
-			(at 64.77 846.05 0)
+			(at 69.85 849.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6328,7 +6328,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CUI-Devices/PR13-5V-450-1C?qs=T%252BzbugeAwjjEdhOl%2F9q49A%3D%3D"
-			(at 64.77 946.05 0)
+			(at 69.85 949.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6338,7 +6338,7 @@
 			)
 		)
 		(property "Arrow Part Number" "PR13-5V-450-1C"
-			(at 64.77 1046.05 0)
+			(at 69.85 1049.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6348,7 +6348,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/pr13-5v-450-1c/cui-devices?region=nac"
-			(at 64.77 1146.05 0)
+			(at 69.85 1149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6672,7 +6672,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 88.9 142.24 90)
+		(at 93.98 146.05 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6680,7 +6680,7 @@
 		(dnp no)
 		(uuid "e2b9c38e-d524-4521-9bae-d6cb78257b2b")
 		(property "Reference" "R4"
-			(at 88.9 140.208 90)
+			(at 93.98 144.018 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6688,7 +6688,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 88.9 142.24 90)
+			(at 93.98 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6696,7 +6696,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 144.018 90)
+			(at 93.98 147.828 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6705,7 +6705,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 88.9 142.24 0)
+			(at 93.98 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6714,7 +6714,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 88.9 142.24 0)
+			(at 93.98 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
