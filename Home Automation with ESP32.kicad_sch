@@ -4272,6 +4272,66 @@
 		)
 		(uuid "f1411cdc-7fa2-4273-ac42-ac50885af0da")
 	)
+	(label "L2"
+		(at 46.99 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "14524028-acda-4d1c-8ad9-3e846e341171")
+	)
+	(label "5V"
+		(at 81.28 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "42d29060-cc03-4823-a3d0-770384fcaf9a")
+	)
+	(label "L1"
+		(at 46.99 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4f8d2dfe-65d7-469e-9263-da77bcebdef2")
+	)
+	(label "3V3"
+		(at 119.38 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "591d1843-fd97-46cb-bed5-a1df27b5512f")
+	)
+	(label "P"
+		(at 45.72 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "73937f7f-6acd-45e4-8ba8-1b47b2eb7c4c")
+	)
+	(label "N"
+		(at 44.45 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "791cc217-5613-48c9-ab73-e369a24bbd72")
+	)
 	(symbol
 		(lib_id "Transistor_BJT:S8050")
 		(at 210.82 106.68 0)
