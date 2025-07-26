@@ -5518,16 +5518,15 @@
 	)
 	(symbol
 		(lib_id "Transistor_BJT:S8050")
-		(at 210.82 121.92 0)
+		(at 76.2 142.24 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "52b935ea-05a5-4191-ad2c-92bd14753617")
 		(property "Reference" "Q2"
-			(at 215.9 120.6499 0)
+			(at 71.12 143.5101 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5536,7 +5535,7 @@
 			)
 		)
 		(property "Value" "S8050"
-			(at 215.9 123.1899 0)
+			(at 71.12 140.9701 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5545,7 +5544,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 215.9 123.825 0)
+			(at 71.12 140.335 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5556,7 +5555,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.unisonic.com.tw/datasheet/S8050.pdf"
-			(at 210.82 121.92 0)
+			(at 76.2 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5566,7 +5565,7 @@
 			)
 		)
 		(property "Description" "0.7A Ic, 20V Vce, Low Voltage High Current NPN Transistor, TO-92"
-			(at 210.82 121.92 0)
+			(at 76.2 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5667,7 +5666,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6bab4039-631c-4eb1-9462-f95a2cc885b7")
-		(property "Reference" "R2"
+		(property "Reference" "R3"
 			(at 85.09 86.868 90)
 			(effects
 				(font
@@ -5675,7 +5674,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1K"
 			(at 85.09 88.9 90)
 			(effects
 				(font
@@ -5719,7 +5718,7 @@
 		(instances
 			(project "Home Automation with ESP32"
 				(path "/7438dd54-9f08-4599-aef6-4a86e3e5147b"
-					(reference "R2")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -5815,16 +5814,15 @@
 	)
 	(symbol
 		(lib_id "Isolator:PC817")
-		(at 209.55 59.69 0)
+		(at 107.95 144.78 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7b5883e6-43c5-48ef-a4b5-857334864187")
 		(property "Reference" "U3"
-			(at 209.55 50.8 0)
+			(at 107.95 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5832,7 +5830,7 @@
 			)
 		)
 		(property "Value" "PC817"
-			(at 209.55 53.34 0)
+			(at 107.95 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5840,7 +5838,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
-			(at 204.47 64.77 0)
+			(at 113.03 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5851,7 +5849,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf"
-			(at 209.55 59.69 0)
+			(at 107.95 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5861,7 +5859,7 @@
 			)
 		)
 		(property "Description" "DC Optocoupler, Vce 35V, CTR 50-300%, DIP-4"
-			(at 209.55 59.69 0)
+			(at 107.95 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6169,17 +6167,83 @@
 		)
 	)
 	(symbol
-		(lib_id "PR13-5V-450-1C:PR13-5V-450-1C")
-		(at 34.29 138.43 0)
+		(lib_id "Device:R")
+		(at 123.19 147.32 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
+		(uuid "806c1b9e-3964-4baf-9486-f2ee7e12825c")
+		(property "Reference" "R2"
+			(at 123.19 145.288 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 123.19 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 149.098 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 123.19 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e559a3d0-d2d1-4c42-9bd6-0b83e9b16de3")
+		)
+		(pin "1"
+			(uuid "d6325f62-35c8-45cc-bee3-b8c9ec9fde14")
+		)
+		(instances
+			(project "Home Automation with ESP32"
+				(path "/7438dd54-9f08-4599-aef6-4a86e3e5147b"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PR13-5V-450-1C:PR13-5V-450-1C")
+		(at 35.56 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "b5de54b8-e943-453f-97b2-2a79771208ff")
 		(property "Reference" "J1"
-			(at 50.8 130.81 0)
+			(at 51.562 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6187,7 +6251,7 @@
 			)
 		)
 		(property "Value" "PR13-5V-450-1C"
-			(at 50.8 133.35 0)
+			(at 52.07 162.306 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6195,7 +6259,7 @@
 			)
 		)
 		(property "Footprint" "PR135V4501C"
-			(at 63.5 233.35 0)
+			(at 64.77 246.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6205,7 +6269,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.sameskydevices.com/product/resource/pr13.pdf"
-			(at 63.5 333.35 0)
+			(at 64.77 346.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6215,7 +6279,7 @@
 			)
 		)
 		(property "Description" "19 x 15.5 x 15.8 mm, 5 V, 10 A, SPDT (1 Form C), Power Relay"
-			(at 34.29 138.43 0)
+			(at 35.56 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6224,7 +6288,7 @@
 			)
 		)
 		(property "Height" "16.1"
-			(at 63.5 533.35 0)
+			(at 64.77 546.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6234,7 +6298,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Same Sky"
-			(at 63.5 633.35 0)
+			(at 64.77 646.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6244,7 +6308,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "PR13-5V-450-1C"
-			(at 63.5 733.35 0)
+			(at 64.77 746.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6254,7 +6318,7 @@
 			)
 		)
 		(property "Mouser Part Number" "179-PR13-5V-450-1C"
-			(at 63.5 833.35 0)
+			(at 64.77 846.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6264,7 +6328,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CUI-Devices/PR13-5V-450-1C?qs=T%252BzbugeAwjjEdhOl%2F9q49A%3D%3D"
-			(at 63.5 933.35 0)
+			(at 64.77 946.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6274,7 +6338,7 @@
 			)
 		)
 		(property "Arrow Part Number" "PR13-5V-450-1C"
-			(at 63.5 1033.35 0)
+			(at 64.77 1046.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6284,7 +6348,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/pr13-5v-450-1c/cui-devices?region=nac"
-			(at 63.5 1133.35 0)
+			(at 64.77 1146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6608,6 +6672,73 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 88.9 142.24 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e2b9c38e-d524-4521-9bae-d6cb78257b2b")
+		(property "Reference" "R4"
+			(at 88.9 140.208 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 88.9 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 144.018 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 88.9 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fb6f748c-6dba-409f-aec8-345f3e06c7c9")
+		)
+		(pin "1"
+			(uuid "e08c2874-ba61-4920-a887-9369a72e5ad3")
+		)
+		(instances
+			(project "Home Automation with ESP32"
+				(path "/7438dd54-9f08-4599-aef6-4a86e3e5147b"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 118.11 93.98 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6623,7 +6754,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1K"
 			(at 118.11 93.98 90)
 			(effects
 				(font
