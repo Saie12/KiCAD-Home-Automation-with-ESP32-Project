@@ -4904,6 +4904,16 @@
 		)
 		(uuid "fe374d68-07cc-4e66-8cb8-100ae5199fe2")
 	)
+	(label "LED2"
+		(at 144.78 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0698c59c-4d64-49ae-babf-353e42df2293")
+	)
 	(label "L2"
 		(at 40.64 54.61 180)
 		(effects
@@ -5033,6 +5043,16 @@
 			(justify left bottom)
 		)
 		(uuid "bd17fe11-74d2-40e5-bc96-57b8a5f1b9c5")
+	)
+	(label "LED1"
+		(at 144.78 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c402344a-96cb-4ed9-a21e-9a9f70c465f2")
 	)
 	(label "P"
 		(at 27.94 157.48 0)
