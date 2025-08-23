@@ -4245,6 +4245,97 @@
 		)
 		(uuid ecb65fce-b095-430f-b96f-45125704c0c4)
 	)
+	(text "LED's"
+		(exclude_from_sim no)
+		(at 146.05 62.23 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 5 5)
+				(thickness 1)
+				(bold yes)
+			)
+		)
+		(uuid "0a2af5a1-9240-4766-94eb-2a24dd588c55")
+	)
+	(text "RELAY's"
+		(exclude_from_sim no)
+		(at 34.036 108.966 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 5 5)
+				(thickness 1)
+				(bold yes)
+			)
+		)
+		(uuid "21533f01-4286-45bd-b3ab-83e4fd8f6a38")
+	)
+	(text "UART"
+		(exclude_from_sim no)
+		(at 144.78 27.94 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 5 5)
+				(thickness 1)
+				(bold yes)
+			)
+		)
+		(uuid "2d66d9c5-5a57-46d1-8824-218f5bf3abe1")
+	)
+	(text "RESET & BOOT"
+		(exclude_from_sim no)
+		(at 164.084 109.22 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 5 5)
+				(thickness 1)
+				(bold yes)
+			)
+		)
+		(uuid "6726dc61-1529-48c6-be33-5a6549088b23")
+	)
+	(text "SWITCHES"
+		(exclude_from_sim no)
+		(at 236.728 123.952 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 5 5)
+				(thickness 1)
+				(bold yes)
+			)
+		)
+		(uuid "bb4a52ea-7d59-4bbf-9e67-6d7d6dfb13e7")
+	)
+	(text "MCU"
+		(exclude_from_sim no)
+		(at 226.822 25.908 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 5 5)
+				(thickness 1)
+				(bold yes)
+			)
+		)
+		(uuid "d8abdbea-9309-4fa0-82e8-11285a4418cb")
+	)
+	(text "POWER SUPPLY"
+		(exclude_from_sim no)
+		(at 48.006 27.686 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 5 5)
+				(thickness 1.4)
+				(bold yes)
+			)
+		)
+		(uuid "e0f109a2-60e5-4098-816b-cdcacdfdf3b7")
+	)
 	(junction
 		(at 116.84 68.58)
 		(diameter 0)
