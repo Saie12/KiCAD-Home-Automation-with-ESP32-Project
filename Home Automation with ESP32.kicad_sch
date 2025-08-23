@@ -4266,6 +4266,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 36.83) (xy 163.83 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "253651c0-95c7-4c1f-9f1f-f9d16fe8438f")
+	)
+	(wire
+		(pts
 			(xy 92.71 52.07) (xy 92.71 53.34)
 		)
 		(stroke
@@ -4496,6 +4506,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 29.21) (xy 163.83 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "591c165c-738c-4fe3-af5e-dfd30b05c544")
+	)
+	(wire
+		(pts
 			(xy 91.44 125.73) (xy 83.82 125.73)
 		)
 		(stroke
@@ -4546,6 +4566,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 34.29) (xy 163.83 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a76c24e-9358-4c0f-8b0a-917a7b3ca60c")
+	)
+	(wire
+		(pts
 			(xy 26.67 46.99) (xy 35.56 46.99)
 		)
 		(stroke
@@ -4583,6 +4613,16 @@
 			(type default)
 		)
 		(uuid "74671faa-1045-4c45-881d-9286d583610e")
+	)
+	(wire
+		(pts
+			(xy 143.51 31.75) (xy 163.83 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76c08af7-d8a6-4c03-9c5f-9b1322e6aca3")
 	)
 	(wire
 		(pts
@@ -4723,6 +4763,16 @@
 			(type default)
 		)
 		(uuid "95c69805-83ce-4a5f-8af6-29f4a8a8b002")
+	)
+	(wire
+		(pts
+			(xy 143.51 31.75) (xy 143.51 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "972b78cb-e170-46a6-a943-3a55f592912a")
 	)
 	(wire
 		(pts
@@ -5174,6 +5224,16 @@
 		)
 		(uuid "6cab93a3-559d-4e11-b377-0bd3990a0050")
 	)
+	(label "3V3"
+		(at 148.59 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6e9df7e2-8257-4b68-aeb7-48ddf5bbc2af")
+	)
 	(label "P"
 		(at 67.31 177.8 180)
 		(effects
@@ -5254,6 +5314,16 @@
 		)
 		(uuid "bd17fe11-74d2-40e5-bc96-57b8a5f1b9c5")
 	)
+	(label "RXD"
+		(at 148.59 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bd658663-7ccd-4790-9ecc-18320edca853")
+	)
 	(label "LED1"
 		(at 144.78 71.12 0)
 		(effects
@@ -5263,6 +5333,16 @@
 			(justify left bottom)
 		)
 		(uuid "c402344a-96cb-4ed9-a21e-9a9f70c465f2")
+	)
+	(label "TXD"
+		(at 148.59 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ca62824a-3d29-466d-a2f1-d0e0baaebcee")
 	)
 	(label "IN2"
 		(at 229.87 125.73 0)
@@ -5580,7 +5660,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
-		(at 168.91 34.29 0)
+		(at 168.91 34.29 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5589,19 +5669,21 @@
 		(fields_autoplaced yes)
 		(uuid "1bdd45c4-44e3-420a-b5b7-24554185978a")
 		(property "Reference" "J1"
-			(at 169.545 26.67 0)
+			(at 170.18 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "Conn_01x04_Pin"
-			(at 169.545 29.21 0)
+			(at 170.18 34.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -6289,6 +6371,72 @@
 			(project "Home Automation with ESP32"
 				(path "/7438dd54-9f08-4599-aef6-4a86e3e5147b"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 143.51 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67ef8738-d355-4891-a3f4-437e807c0c56")
+		(property "Reference" "#PWR012"
+			(at 143.51 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 143.51 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 143.51 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01670aaf-da14-4347-a484-cb76bac05b27")
+		)
+		(instances
+			(project ""
+				(path "/7438dd54-9f08-4599-aef6-4a86e3e5147b"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
