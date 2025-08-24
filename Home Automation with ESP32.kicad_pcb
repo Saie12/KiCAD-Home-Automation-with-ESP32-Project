@@ -2554,7 +2554,7 @@
 	(footprint "Package_TO_SOT_THT:TO-92_Inline"
 		(layer "F.Cu")
 		(uuid "54647ec0-5a87-4b7f-ad80-550db2bacc6b")
-		(at 98.96 103.5)
+		(at 99.025 103.475)
 		(descr "TO-92 leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q2"
@@ -7102,11 +7102,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "eb166324-1aca-4fbd-b29e-944382b7f798")
-		(at 100.25 117.62 90)
+		(at 101.15 117.55 90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D3"
-			(at 3.81 -2.12 90)
+			(at 7.7 2.05 90)
 			(layer "F.SilkS")
 			(uuid "00d1d2f0-8660-4626-96c2-b0fab8c6c109")
 			(effects
@@ -8998,6 +8998,16 @@
 		)
 	)
 	(gr_line
+		(start 91.45 114.15)
+		(end 91.45 112.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "1b905986-6305-4a0c-82ec-9edaa4e2e388")
+	)
+	(gr_line
 		(start 134 144)
 		(end 116 144)
 		(stroke
@@ -9006,6 +9016,36 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "21ae3884-e86e-42b1-a193-d22fb08b9bcc")
+	)
+	(gr_line
+		(start 91.475 106.025)
+		(end 99.475 106.025)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "333bccc3-e3eb-45fb-b61a-c9f788a7f59f")
+	)
+	(gr_line
+		(start 97.025 107.525)
+		(end 91.475 107.525)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "3468f3e4-98e8-4a06-96ca-891482f63ea8")
+	)
+	(gr_line
+		(start 99.475 106.025)
+		(end 99.475 114.15)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "41a57a3b-df4f-4cb8-93c0-f45225eae6cf")
 	)
 	(gr_line
 		(start 151 151)
@@ -9048,6 +9088,36 @@
 		(uuid "77495513-6a95-4fd8-b9f1-17e3c04282e0")
 	)
 	(gr_line
+		(start 91.475 107.525)
+		(end 91.475 106.025)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7f6fbf10-4e7e-4574-b48b-13cc9277b91c")
+	)
+	(gr_line
+		(start 99.475 114.15)
+		(end 91.45 114.15)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "90f229aa-a6ad-4b2a-be70-ea58ec1f926f")
+	)
+	(gr_line
+		(start 97 112.75)
+		(end 97.025 107.525)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "a68f4897-969c-4b13-8eca-a02524194176")
+	)
+	(gr_line
 		(start 63 151)
 		(end 63 73)
 		(stroke
@@ -9076,6 +9146,16 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "c8b970dd-f7a9-42a1-a381-b04d12fa54c3")
+	)
+	(gr_line
+		(start 91.45 112.75)
+		(end 97 112.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d56f0b14-08c3-44aa-a828-03d357228bb9")
 	)
 	(embedded_fonts no)
 )
