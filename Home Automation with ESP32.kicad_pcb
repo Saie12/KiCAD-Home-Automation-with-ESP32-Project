@@ -1361,7 +1361,7 @@
 			(uuid "b72a862f-062a-497c-981c-e456777026b9")
 		)
 		(embedded_fonts no)
-		(model "PR13-5V-450-1C.stp"
+		(model "${KIPRJMOD}/Libraries/3D Models/PR13-5V-450-1C.stp"
 			(offset
 				(xyz 6.199999716 5.99999991 0.6600000163)
 			)
@@ -5211,15 +5211,15 @@
 			(uuid "5dbe423a-6744-4a1c-820c-23405c874a8c")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/TerminalBlock.3dshapes/TerminalBlock_bornier-4_P5.08mm.step"
+		(model "${KICAD9_3DMODEL_DIR}/TerminalBlock_Phoenix.3dshapes/TerminalBlock_Phoenix_MKDS-1,5-4-5.08_1x04_P5.08mm_Horizontal.step"
 			(offset
-				(xyz 7.619999886 0 0)
+				(xyz 0.12 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -8985,15 +8985,15 @@
 			(uuid "a5a7f52e-532e-45de-9f5c-396811649bdc")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/TerminalBlock.3dshapes/TerminalBlock_bornier-3_P5.08mm.step"
+		(model "${KICAD9_3DMODEL_DIR}/TerminalBlock_Phoenix.3dshapes/TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal.step"
 			(offset
-				(xyz 5.079999924 0 0)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -9156,6 +9156,190 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "d56f0b14-08c3-44aa-a828-03d357228bb9")
+	)
+	(gr_text "GND"
+		(at 140.625 108.2 0)
+		(layer "F.SilkS")
+		(uuid "117b01af-3217-4669-85b9-42a022f07835")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "TXD"
+		(at 140.675 103 0)
+		(layer "F.SilkS")
+		(uuid "40d3bbda-cde1-4770-8dd5-42d67c940eab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "30A HOME AUTOMATION"
+		(at 113.35 75.2 0)
+		(layer "F.SilkS" knockout)
+		(uuid "7e9396e4-4d93-4ccc-bd78-31cd1dc7584b")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "3V3"
+		(at 140.7 110.725 0)
+		(layer "F.SilkS")
+		(uuid "b60cc2bc-1057-4bca-9130-8d34ce54af81")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "BOOT"
+		(at 138.95 92.525 0)
+		(layer "F.SilkS")
+		(uuid "bf295189-265a-4ce1-b663-0d4c6fffe95a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "RESET"
+		(at 139.35 130.7 0)
+		(layer "F.SilkS")
+		(uuid "cf7f7697-92d8-4ebd-8bbb-91b8ac5b7381")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "RXD"
+		(at 140.6 105.525 0)
+		(layer "F.SilkS")
+		(uuid "da2b6c9a-57d3-4753-a239-343e93f6dea4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "MADE IN INDIA"
+		(at 83.275 150.425 0)
+		(layer "F.SilkS" knockout)
+		(uuid "fd97876d-9731-43b0-8b30-6bcb0804a3d4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "IN2"
+		(at 74.05 114.725 0)
+		(layer "B.SilkS")
+		(uuid "16333a71-e615-4143-90bf-974714bd50be")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "GND"
+		(at 74.45 104.55 0)
+		(layer "B.SilkS")
+		(uuid "467bb812-6ba1-437b-978c-e9cc8e57f6c9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "PHASE"
+		(at 75.05 78.325 0)
+		(layer "B.SilkS")
+		(uuid "5c92a4fd-d46a-441a-8575-b4a836358f85")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "LOAD2"
+		(at 75.85 93.8 0)
+		(layer "B.SilkS")
+		(uuid "61d41302-a74d-4407-89d5-ed0a04757a11")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "NEUTRAL"
+		(at 76.4 83.4 0)
+		(layer "B.SilkS")
+		(uuid "6471642a-ac9e-414f-938a-33553d216dab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "IN1"
+		(at 73.875 109.6 0)
+		(layer "B.SilkS")
+		(uuid "ad4edf21-6081-4c1a-9451-7517f7f6e4c7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "LOAD1"
+		(at 75.625 88.65 0)
+		(layer "B.SilkS")
+		(uuid "ddd70f83-8843-4cf3-852c-b12a3c51e22a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
 	)
 	(segment
 		(start 99.025 103.475)
